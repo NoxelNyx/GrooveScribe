@@ -1,0 +1,13 @@
+{
+    "headers": [
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "x-frame-options",
+            "value": "ALLOW-FROM https://groovescribe.becomingadrummer.com/"
+          }
+        ]
+      }
+    ]
+  }
