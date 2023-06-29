@@ -482,7 +482,10 @@
 			// set up the page after it has fully loaded
 			window.onload = function () { 'use strict';
 				myGrooveWriter.runsOnPageLoad();   // Initialize the notes
-                document.domain = 'becomingadrummer.com';
+
+                window.addEventListener('message', function(event) {
+                    window.parent.postMessage(window.location.href, '*');
+                }, false);
 			};
 		</script>
 
