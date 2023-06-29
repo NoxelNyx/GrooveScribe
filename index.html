@@ -484,7 +484,7 @@
 				myGrooveWriter.runsOnPageLoad();   // Initialize the notes
 
                 window.addEventListener('message', function(event) {
-                    window.parent.postMessage(window.location.href, '*');
+                    window.parent.postMessage(window.location.search, '*');
                 }, false);
 			};
 		</script>
