@@ -4,8 +4,8 @@
         "source": "/",
         "headers": [
           {
-            "key": "x-frame-options",
-            "value": "ALLOW-FROM https://groovescribe.becomingadrummer.com/"
+            "key": "Content-Security-Policy",
+            "value": "frame-ancestors 'self' https://*.becomingadrummer.com"
           }
         ]
       }
