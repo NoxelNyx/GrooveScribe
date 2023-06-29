@@ -484,7 +484,7 @@
 				myGrooveWriter.runsOnPageLoad();   // Initialize the notes
 
                 window.addEventListener('message', function(event) {
-                    window.opener.postMessage(window.location.href, '*');
+                    window.parent.postMessage(window.location.href, 'https://becomingadrummer.com');
                 }, false);
 			};
 		</script>
