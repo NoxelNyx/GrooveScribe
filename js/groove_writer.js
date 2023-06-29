@@ -4001,7 +4001,7 @@ function GrooveWriter() {
 				// select the URL for copy/paste
 				textField.focus();
 				textField.select();
-				document.getElementById("shortenerCheckbox").checked = true;  // this is now true if isn't already
+				document.getElementById("shortenerCheckbox").checked = false;  // this is now true if isn't already
 			} else {
 				document.getElementById("shortenerCheckbox").checked = false;  // request failed
 			}
