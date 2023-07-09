@@ -51,7 +51,7 @@
 		top: 0px;
 		left: 0px;
 		border-right: 2px solid #000;
-		background: #393939;
+		background: rgb(18, 18, 18);;
 		z-index: 999;
 	}
 	#TopNav {
@@ -150,7 +150,7 @@
 		width: 75px;
 	}
 	.metronomeButton.buttonSelected, .metronomeButton.selected, .rightButtons.buttonSelected {  /* is a button and is selected */
-		color: #FFF;
+		color: rgb(206, 147, 216);
 		font-weight: 700;
 		/background: #68c2ff;
 	}
@@ -197,11 +197,11 @@
 	}
 	.left-button.disabled, .left-button.disabled:hover {
 		color: #000;
-		background-color: #393939;
+		background-color: #rgb(18, 18, 18);;
 	}
 	.left-button.buttonSelected, .left-button.buttonSelected:hover {  /* is subdivision and is selected */
 		background: #2484C0;
-		color: #FFF;
+		color: rgb(206, 147, 216);
 		cursor: auto;
 		transform: scale(1.1);
 	}
@@ -859,7 +859,7 @@
 		margin:0; padding:0px; list-style:none;
 		background: #eeeeee;
 		color: #000;
-		border: 1px solid #393939;
+		border: 1px solid #rgb(18, 18, 18);;
 		list-style:none;
 	}
 	.noteContextMenu>ul.list li {
@@ -1172,7 +1172,7 @@
 	}
 	#bottomButtonRow {
 		padding: 20px 0px;
-		background: #393939;
+		background: rgb(18, 18, 18);;
 		text-align: center;
 		color: #888888;
 		display: -webkit-flex;
