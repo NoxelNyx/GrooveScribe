@@ -89,7 +89,8 @@
 	}
 	#logoTextUpperLeft {
 		padding: 9px 10px 6px 5px;
-		display: inline-block;
+		/display: inline-block;
+        display: none;
 	}
 	#logoTextUpperLeft img {
 		height: 30px;
@@ -155,6 +156,7 @@
 
 	#logoInSubdivision {
 		background-color: #000;
+        display: none;
 	}
 	#logoInSubdivision img {
 		height: 40px;
@@ -183,12 +185,12 @@
 		height: 48px;  /* Override from above */
 	}
 	#timeSigLabel {
-		color: #62C04C;
+		color: rgb(206, 147, 216);
 		font-size: 20px;
 		margin-bottom: -5px;
 	}
 	#timeSubLabel {
-		color: #62C04C;
+		color: rgb(206, 147, 216);
 		font-size: 12px;
 	}
 	.left-button.disabled, .left-button.disabled:hover {
