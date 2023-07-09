@@ -255,7 +255,7 @@
 	}
 
 	.abcr {  /* rectangles enclosing notes in ABC SVG */
-		fill: rgb(206, 147, 216);
+		fill: rgb(206, 147, 216) !important;
 		fill-opactity: 0.25;
 	}
 	.abcr.highlighted {

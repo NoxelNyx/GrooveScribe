@@ -1185,6 +1185,7 @@
 	.pageBottomButton {
 		display: inline-block;
 		margin: 0px 20px;
+
 	}
 	.pageBottomButton:hover {
 		cursor: pointer;
@@ -1196,22 +1197,23 @@
 	.bottomButtonLabel {
 		margin-top: 2px;
 		display: block;
+        font-size: .9rem;
 	}
 	.edit-block {
 		display: none;
 	}
 	/*  3 circles make up the tom icon.  Position them */
 	#icon-tom1 {
-		font-size: 16px;
-		margin-top: 16px;
+		font-size: 12px;
+		margin-top: 12px;
 	}
 	#icon-tom2 {
-		font-size: 14px;
-		margin-left: -5px;
+		font-size: 10px;
+		margin-left: -4px;
 		vertical-align: top;
 	}
 	#icon-tom3 {
-		font-size: 20px;
+		font-size: 15px;
 		margin-top: 11px;
 	}
 	@media print {
