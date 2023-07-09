@@ -185,12 +185,12 @@
 		height: 48px;  /* Override from above */
 	}
 	#timeSigLabel {
-		color: rgb(206, 147, 216);
+		color: #fff;
 		font-size: 20px;
 		margin-bottom: -5px;
 	}
 	#timeSubLabel {
-		color: rgb(206, 147, 216);
+		color: #fff;
 		font-size: 12px;
 	}
 	.left-button.disabled, .left-button.disabled:hover {
@@ -303,7 +303,6 @@
 	.stickings-label {
 		display: none;
 		height: 25px;
-		background: #f7f1cf;
 		color: #000;
 		padding-top: 9px;
 		padding-left: 1px;
@@ -369,7 +368,6 @@
 	.stickings-container {
 		display: none;
 		height: 32px;
-		background: #f7f1cf;
 		border: 1px solid transparent;
 		margin-top: 0px;
 		white-space:nowrap;
@@ -804,7 +802,8 @@
 		background: #FFF;
 	}
 	.svgTarget {
-		background: #FFF;
+		background: rgb(18, 18, 18);
+        fill: #ccc;
 	}
 
 	/* override the normal 100% width that is in groove_display for editing */
@@ -812,6 +811,7 @@
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
+        color: #ccc;
 		/* height: auto; */
 	}
 
@@ -820,7 +820,7 @@
 		padding: 8px 0px;
 		text-align: center;
 		display: -webkit-flex;
-		display: flex;
+		display: none !important;
 		justify-content: space-around;
 		-webkit-justify-content: space-around;
 		background-color: #DDD;
