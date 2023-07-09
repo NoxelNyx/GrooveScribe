@@ -170,9 +170,7 @@
 		font-size: 12px;
 		font-weight: bold;
 		height: 48px;
-		border-bottom: 1px solid #000;
 		text-align: center;
-		vertical-align: middle;
 		display: -webkit-flex;
 		display: flex;
 		align-items: center;
@@ -726,7 +724,7 @@
 	#addMeasureButton {
 		vertical-align: top;
 		display: inline-block;
-		color: var(--highlight-color-on-white);
+		color: rgb(206, 147, 216);
 		cursor: pointer;
 		font-size: 40px;
 		padding-top: 2px;

@@ -89,7 +89,6 @@
 		flex: none;
 	}
 	.midiPlayImage, .midiRepeatImage {
-		background: #666666;
 		margin: 4px 4px 4px 4px;
 
 	}
@@ -114,7 +113,7 @@
 	 	content: "\f05e";
 	}
 	.midiPlayImage.Stopped:before ,  .midiPlayImage.Paused:before   {
-	 	color: #FFF;
+        color: rgb(206, 147, 216);
 		letter-spacing: -3px;
 		content: "\f04b";
 	}
