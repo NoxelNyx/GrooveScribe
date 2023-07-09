@@ -811,8 +811,12 @@
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
-        color: #ccc;
+        color: rgb(206, 147, 216);
 		/* height: auto; */
+	}
+
+    #RightHandContent .svgTarget svg .stroke {
+        color: #ccc;
 	}
 
 	#sheetMusicTextFields {
