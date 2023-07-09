@@ -1192,8 +1192,8 @@ function GrooveUtils() {
 		'%%deco ). 0 a 5 1 1 "@4,-3)"\n' +
 		'%%beginsvg\n' +
 		' <defs>\n' +
-		' <path id="Xhead" d="m-3,-3 l6,6 m0,-6 l-6,6" class="stroke test2" style="stroke-width:1.2"/>\n' +
-		' <path id="Trihead" d="m-3,2 l 6,0 l-3,-6 l-3,6 l6,0" class="stroke test1" style="stroke-width:1.2"/>\n' +
+		' <path id="Xhead" d="m-3,-3 l6,6 m0,-6 l-6,6" class="stroke" style="stroke-width:1.2"/>\n' +
+		' <path id="Trihead" d="m-3,2 l 6,0 l-3,-6 l-3,6 l6,0" class="stroke" style="stroke-width:1.2"/>\n' +
 		' </defs>\n' +
 		'%%endsvg\n' +
 		'%%map drum ^g heads=Xhead print=g       % Hi-Hat\n' +
