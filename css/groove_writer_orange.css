@@ -20,7 +20,7 @@ body {
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
     width: 7px;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(17, 17, 17);
     border-radius: 10px;
 }
 
