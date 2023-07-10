@@ -1149,8 +1149,8 @@ ul.list a:hover {
     margin: 0;
     padding: 0px;
     list-style: none;
-    background: #eeeeee;
-    color: #000;
+    background: #1E1E1E;
+    color: #ccc;
 }
 
 .grooveListHeaderLI {
