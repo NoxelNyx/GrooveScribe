@@ -535,7 +535,7 @@ function GrooveWriter() {
 			else if (returnType == "URL")
 				return "X"; // hh accent
 		}
-		if (document.getElementById("hh_cross" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_cross" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Normal; // hh normal
 			else if (returnType == "URL")
