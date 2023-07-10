@@ -71,7 +71,7 @@ function GrooveWriter() {
 	var constant_note_border_color_hex = "#999";
     var constant_hihat_note_on_color_hex = "#CE93D8"; 
     var constant_hihat_note_on_color_rgb = "rgb(206, 147, 216)";
-	var constant_hihat_note_off_color_hex = "#999";
+	var constant_hihat_note_off_color_hex = "#222";
 	var constant_hihat_note_off_color_rgb = 'rgb(204, 204, 204)'; // grey
 	var constant_note_hidden_color_rgb = "transparent";
 	var constant_sticking_right_on_color_rgb = "rgb(36, 132, 192)";
