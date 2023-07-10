@@ -575,12 +575,12 @@ function GrooveWriter() {
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_NORMAL);
 				break;
 			case "ride":
-				document.getElementById("hh_ride" + id).style.color = constant_hihat_note_on_color_hex;
+				document.getElementById("hh_ride" + id).style.color = constant_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_RIDE);
 				break;
 			case "ride_bell":
-				document.getElementById("hh_ride_bell" + id).style.color = constant_hihat_note_on_color_hex;
+				document.getElementById("hh_ride_bell" + id).style.color = constant_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_RIDE_BELL);
 				break;
