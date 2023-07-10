@@ -68,7 +68,7 @@ function GrooveWriter() {
 	var constant_note_on_color_rgb = 'rgb(204, 204, 204)';
 	var constant_note_off_color_hex = "#1E1E1E";
 	var constant_note_off_color_rgb = 'rgb(18, 18, 18)';
-	var constant_note_border_color_hex = "#999";
+	var constant_note_border_color_hex = "#555";
     var constant_hihat_note_on_color_hex = "#CE93D8"; 
     var constant_hihat_note_on_color_rgb = "rgb(206, 147, 216)";
 	var constant_hihat_note_off_color_hex = "#555";
