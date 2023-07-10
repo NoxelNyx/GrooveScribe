@@ -80,8 +80,8 @@ function GrooveWriter() {
 	var constant_sticking_count_on_color_rgb = "rgb(57, 57, 57)";
 	var constant_sticking_right_off_color_rgb = "rgb(204, 204, 204)";
 	var constant_sticking_left_off_color_rgb = "rgb(204, 204, 204)";
-	var constant_snare_accent_on_color_hex = "#CE93D8";
-	var constant_snare_accent_on_color_rgb = "rgb(206, 147, 216)";
+	var constant_snare_accent_on_color_hex = "#121212";
+	var constant_snare_accent_on_color_rgb = "rgb(18, 18, 18)";
 
 	// functions below
 
