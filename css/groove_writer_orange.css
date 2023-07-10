@@ -32,7 +32,7 @@ body {
 
 #musicalInput::-webkit-scrollbar {
     height: 5px;
-    border-radius: none;
+    border-radius: 0;
 }
 
 #GrooveWriter {
@@ -335,7 +335,6 @@ body {
     background: #FFF;
     overflow-x: auto;
     overflow-y: hidden;
-    border-bottom: 1px solid #AAA;
     text-align: center;
     white-space: nowrap;
 }
