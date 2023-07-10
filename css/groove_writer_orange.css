@@ -364,9 +364,10 @@ body {
     margin-right: -3px;
     margin-bottom: 0px;
     display: inline-block;
-    background: #FFFFFF;
+    background: rgb(30, 30, 30);
     text-align: left;
     white-space: nowrap;
+    color: #ccc;
 }
 
 .notes-row-container {
