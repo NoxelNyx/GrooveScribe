@@ -474,68 +474,68 @@ function GrooveWriter() {
 			returnType = "ABC";
 		}
 
-		if (document.getElementById("hh_ride" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_ride" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Ride; // ride
 			else if (returnType == "URL")
 				return "r"; // ride
 		}
-		if (document.getElementById("hh_ride_bell" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_ride_bell" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Ride_Bell; // ride bell
 			else if (returnType == "URL")
 				return "b"; // ride bell
 		}
-		if (document.getElementById("hh_cow_bell" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_cow_bell" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Cow_Bell; // cow bell
 			else if (returnType == "URL")
 				return "m"; // (more) cow bell
 		}
-		if (document.getElementById("hh_crash" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_crash" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Crash; // crash
 			else if (returnType == "URL")
 				return "c"; // crash
 		}
-		if (document.getElementById("hh_stacker" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_stacker" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Stacker; // stacker
 			else if (returnType == "URL")
 				return "s"; // stacker
 		}
-		if (document.getElementById("hh_metronome_normal" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_metronome_normal" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Metronome_Normal; // beep
 			else if (returnType == "URL")
 				return "n"; // beep
 		}
-		if (document.getElementById("hh_metronome_accent" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_metronome_accent" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Metronome_Accent; // beep
 			else if (returnType == "URL")
 				return "N"; // beep
 		}
-		if (document.getElementById("hh_open" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_open" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Open; // hh Open
 			else if (returnType == "URL")
 				return "o"; // hh Open
 
 		}
-		if (document.getElementById("hh_close" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_close" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Close; // hh close
 			else if (returnType == "URL")
 				return "+"; // hh close
 		}
-		if (document.getElementById("hh_accent" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_accent" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Accent; // hh accent
 			else if (returnType == "URL")
 				return "X"; // hh accent
 		}
-		if (document.getElementById("hh_cross" + id).style.color == constant_note_on_color_rgb) {
+		if (document.getElementById("hh_cross" + id).style.color == constant_hihat_note_on_color_hex) {
 			if (returnType == "ABC")
 				return constant_ABC_HH_Normal; // hh normal
 			else if (returnType == "URL")
