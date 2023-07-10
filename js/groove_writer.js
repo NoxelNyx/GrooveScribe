@@ -64,9 +64,9 @@ function GrooveWriter() {
 	// local constants
 	var constant_default_tempo = 80;
 	var constant_note_stem_off_color = "transparent";
-	var constant_note_on_color_hex = "#121212";
-	var constant_note_on_color_rgb = 'rgb(18, 18, 18)';
-	var constant_note_off_color_hex = "#CCC";
+	var constant_note_on_color_hex = "#ccc";
+	var constant_note_on_color_rgb = 'rgb(204, 204, 204)';
+	var constant_note_off_color_hex = "#121212";
 	var constant_note_off_color_rgb = 'rgb(18, 18, 18)';
 	var constant_note_border_color_hex = "#999";
     var constant_hihat_note_on_color_hex = "#CE93D8"; 
