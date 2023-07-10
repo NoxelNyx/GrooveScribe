@@ -78,8 +78,8 @@ function GrooveWriter() {
 	var constant_sticking_left_on_color_rgb = "rgb(204, 204, 204)";
 	var constant_sticking_both_on_color_rgb = "rgb(204, 204, 204)";
 	var constant_sticking_count_on_color_rgb = "rgb(204, 204, 204)";
-	var constant_sticking_right_off_color_rgb = "rgb(204, 204, 204)";
-	var constant_sticking_left_off_color_rgb = "rgb(204, 204, 204)";
+	var constant_sticking_right_off_color_rgb = "rgb(18, 18, 18)";
+	var constant_sticking_left_off_color_rgb = "rgb(18, 18, 18)";
 	var constant_snare_accent_on_color_hex = "#121212";
 	var constant_snare_accent_on_color_rgb = "rgb(18, 18, 18)";
 
