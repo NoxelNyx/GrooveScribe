@@ -1124,6 +1124,7 @@ body {
 .noteContextMenu>ul.list li:hover,
 ul.list a:hover {
     background: #cccccc;
+    color: rgb(18, 18, 18);
 }
 
 .noteContextMenu>ul.list li:last-child {
