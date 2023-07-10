@@ -1158,6 +1158,7 @@ ul.list a:hover {
     background: var(--highlight-color);
     font-size: 18px;
     font-weight: bold;
+    color: rgb(18, 18, 18);
 }
 
 .grooveListLI {
@@ -1168,6 +1169,7 @@ ul.list a:hover {
 
 .grooveListLI:hover {
     background: #cccccc;
+    color: rgb(18, 18, 18);
 }
 
 hr {
