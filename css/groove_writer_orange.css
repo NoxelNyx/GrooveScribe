@@ -1139,8 +1139,9 @@ ul.list a:hover {
     width: 300px;
     height: 300px;
     overflow: auto;
-    background: #eeeeee;
-    border: 1px solid #393939;
+    background: #1E1E1E;
+    border: 1px solid rgb(18, 18, 18);
+    color: #ccc;
 }
 
 .grooveListUL {
