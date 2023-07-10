@@ -69,6 +69,7 @@ function GrooveWriter() {
 	var constant_note_off_color_hex = "#CCC";
 	var constant_note_off_color_rgb = 'rgb(18, 18, 18)'; // white
 	var constant_note_border_color_hex = "#999";
+    var constant_hihat_note_on_color_hex = "#CE93D8"; // black
 	var constant_hihat_note_off_color_hex = "#CCC";
 	var constant_hihat_note_off_color_rgb = 'rgb(204, 204, 204)'; // grey
 	var constant_note_hidden_color_rgb = "transparent";
@@ -569,60 +570,60 @@ function GrooveWriter() {
 				document.getElementById("hh_cross" + id).style.color = constant_hihat_note_off_color_hex;
 				break;
 			case "normal":
-				document.getElementById("hh_cross" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_cross" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_NORMAL);
 				break;
 			case "ride":
-				document.getElementById("hh_ride" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_ride" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_RIDE);
 				break;
 			case "ride_bell":
-				document.getElementById("hh_ride_bell" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_ride_bell" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_RIDE_BELL);
 				break;
 			case "cow_bell":
-				document.getElementById("hh_cow_bell" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_cow_bell" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_COW_BELL);
 				break;
 			case "crash":
-				document.getElementById("hh_crash" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_crash" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_CRASH);
 				break;
 			case "stacker":
-				document.getElementById("hh_stacker" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_stacker" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_STACKER);
 				break;
 			case "metronome_normal":
-				document.getElementById("hh_metronome_normal" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_metronome_normal" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_METRONOME_NORMAL);
 				break;
 			case "metronome_accent":
-				document.getElementById("hh_metronome_accent" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_metronome_accent" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_METRONOME_ACCENT);
 				break;
 			case "open":
-				document.getElementById("hh_cross" + id).style.color = constant_note_on_color_hex;
-				document.getElementById("hh_open" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_cross" + id).style.color = constant_hihat_note_on_color_hex;
+				document.getElementById("hh_open" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_OPEN);
 				break;
 			case "close":
-				document.getElementById("hh_cross" + id).style.color = constant_note_on_color_hex;
-				document.getElementById("hh_close" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_cross" + id).style.color = constant_hihat_note_on_color_hex;
+				document.getElementById("hh_close" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_NORMAL);
 				break;
 			case "accent":
-				document.getElementById("hh_cross" + id).style.color = constant_note_on_color_hex;
-				document.getElementById("hh_accent" + id).style.color = constant_note_on_color_hex;
+				document.getElementById("hh_cross" + id).style.color = constant_hihat_note_on_color_hex;
+				document.getElementById("hh_accent" + id).style.color = constant_hihat_note_on_color_hex;
 				if (make_sound)
 					play_single_note_for_note_setting(constant_OUR_MIDI_HIHAT_ACCENT);
 				break;
