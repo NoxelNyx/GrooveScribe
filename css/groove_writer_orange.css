@@ -1041,9 +1041,9 @@ body {
 
 /* override the normal 100% width that is in groove_display for editing */
 #RightHandContent .svgTarget svg {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 75%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
     color: #ccc;
     /* height: auto; */
 }
