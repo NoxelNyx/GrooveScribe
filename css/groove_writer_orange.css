@@ -364,13 +364,16 @@ body {
 
 .staff-container {
     margin-right: -3px;
-    padding-right: 3px;
     margin-bottom: 0px;
     display: inline-block;
     background: rgb(30, 30, 30);
     text-align: left;
     white-space: nowrap;
     color: #ccc;
+}
+
+.playerControl {
+    border-radius: 10px;
 }
 
 .notes-row-container {
