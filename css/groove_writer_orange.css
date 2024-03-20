@@ -15,6 +15,9 @@ body {
 * {
     scrollbar-width: '7px';
     scrollbar-color: rgb(17, 17, 17);
+}
+
+#midiPlayer {
     border-radius: 10px;
 }
 
@@ -356,19 +359,17 @@ body {
 #measureContainer {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(30, 30, 30);
 }
 
 .staff-container {
-    /margin-left: 2px;
-    /margin-top: 2px;
-    margin-right: -3px;
-    margin-bottom: 0px;
+    margin-right: 3px;
+    padding-right: 3px;
     display: inline-block;
     background: rgb(30, 30, 30);
     text-align: left;
     white-space: nowrap;
     color: #ccc;
+    border-radius: 5px;
 }
 
 .notes-row-container {
